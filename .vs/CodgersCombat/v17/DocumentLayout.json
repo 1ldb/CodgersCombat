@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\forgetfulcodger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:forgetfulcodger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\deafcodger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:deafcodger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\arthriticcodger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:arthriticcodger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\codger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:codger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|c:\\users\\lorenzo dalberto\\onedrive - craneware\\pictures\\codgerscombat\\ifighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32CABF4B-2B13-47A2-B119-3C1227E03040}|CodgersCombat.csproj|solutionrelative:ifighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgetfulCodger.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\ForgetfulCodger.cs",
+              "RelativeDocumentMoniker": "ForgetfulCodger.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\ForgetfulCodger.cs",
+              "RelativeToolTip": "ForgetfulCodger.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:38:17.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\BattleManager.cs",
+              "RelativeDocumentMoniker": "BattleManager.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\BattleManager.cs",
+              "RelativeToolTip": "BattleManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:33:49.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IFighter.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\IFighter.cs",
+              "RelativeDocumentMoniker": "IFighter.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\IFighter.cs",
+              "RelativeToolTip": "IFighter.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:26:46.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeafCodger.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\DeafCodger.cs",
+              "RelativeDocumentMoniker": "DeafCodger.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\DeafCodger.cs",
+              "RelativeToolTip": "DeafCodger.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:24:18.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArthriticCodger.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\ArthriticCodger.cs",
+              "RelativeDocumentMoniker": "ArthriticCodger.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\ArthriticCodger.cs",
+              "RelativeToolTip": "ArthriticCodger.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:42:23.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Codger.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\Codger.cs",
+              "RelativeDocumentMoniker": "Codger.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\Codger.cs",
+              "RelativeToolTip": "Codger.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T07:57:36.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lorenzo dalberto\\OneDrive - Craneware\\Pictures\\CodgersCombat\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T07:51:28.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
