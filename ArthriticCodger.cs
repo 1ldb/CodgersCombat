@@ -32,5 +32,19 @@ namespace CodgersCombat
 
             Console.WriteLine($"{target.Name} takes {damage} damage! Health: {target.Health}\n");
         }
+
+        // Override special ability - extra powerful joint lock
+        public override void UseSpecialAbility(IFighter target)
+        {
+            Random random = new Random();
+            int damage = random.Next(25, 40); // Very high damage!
+
+            Console.WriteLine($"💥 {Name} uses ARTHRITIC DEATH GRIP!");
+            Console.WriteLine($"   Their locked joints crush {target.Name}!");
+
+            target.TakeDamage(damage);
+
+            Console.WriteLine($"{target.Name} takes {damage} damage! Health: {target.Health}\n");
+        }
     }
 }

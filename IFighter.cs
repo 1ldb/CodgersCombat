@@ -19,5 +19,8 @@ namespace CodgersCombat
         void Attack(IFighter target);
         void TakeDamage(int damage);
         void Introduce();
+        void Defend(); // NEW: Defensive action
+        void UseSpecialAbility(IFighter target); // NEW: Special move
+        void ResetDefense(); // NEW: Reset defense state each turn
     }
 }

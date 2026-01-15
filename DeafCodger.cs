@@ -46,5 +46,19 @@ namespace CodgersCombat
                 base.TakeDamage(damage); // Normal damage
             }
         }
+
+        // Override special ability - confusion attack
+        public override void UseSpecialAbility(IFighter target)
+        {
+            Random random = new Random();
+            int damage = random.Next(10, 15);
+
+            Console.WriteLine($"🔊 {Name} yells 'WHAT DID YOU SAY?!' at maximum volume!");
+            Console.WriteLine($"   The confusion is devastating!");
+
+            target.TakeDamage(damage);
+
+            Console.WriteLine($"{target.Name} takes {damage} damage! Health: {target.Health}\n");
+        }
     }
 }

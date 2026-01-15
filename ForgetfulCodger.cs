@@ -35,5 +35,28 @@ namespace CodgersCombat
 
             Console.WriteLine($"{target.Name} takes {damage} damage! Health: {target.Health}\n");
         }
+
+        // Override special ability - might forget to use it!
+        public override void UseSpecialAbility(IFighter target)
+        {
+            Random random = new Random();
+            int chance = random.Next(1, 101);
+
+            // 50% chance to forget what they were doing
+            if (chance <= 50)
+            {
+                Console.WriteLine($"🤔 {Name} forgets what their special ability is!");
+                Console.WriteLine($"   They just stand there confused.\n");
+                return;
+            }
+
+            int damage = random.Next(15, 25);
+            Console.WriteLine($"💡 {Name} remembers! Uses MEMORY LANE ATTACK!");
+            Console.WriteLine($"   Rambles about 'the good old days' until {target.Name} can't take it!");
+
+            target.TakeDamage(damage);
+
+            Console.WriteLine($"{target.Name} takes {damage} damage! Health: {target.Health}\n");
+        }
     }
 }

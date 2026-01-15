@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodgersCombat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+857d23a09e22bde60d68bc2dfcb7b4072d469ed4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodgersCombat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodgersCombat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

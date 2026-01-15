@@ -12,3 +12,4 @@ C:\Users\lorenzo dalberto\OneDrive - Craneware\Pictures\CodgersCombat\obj\Debug\
 C:\Users\lorenzo dalberto\OneDrive - Craneware\Pictures\CodgersCombat\obj\Debug\net8.0\CodgersCombat.pdb
 C:\Users\lorenzo dalberto\OneDrive - Craneware\Pictures\CodgersCombat\obj\Debug\net8.0\CodgersCombat.genruntimeconfig.cache
 C:\Users\lorenzo dalberto\OneDrive - Craneware\Pictures\CodgersCombat\obj\Debug\net8.0\ref\CodgersCombat.dll
+C:\Users\lorenzo dalberto\OneDrive - Craneware\Pictures\CodgersCombat\obj\Debug\net8.0\CodgersCombat.sourcelink.json

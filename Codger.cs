@@ -14,6 +14,11 @@ namespace CodgersCombat
         private string name;
         private int health;
         private int age;
+        private bool isDefending;
+        public bool IsDefending
+        {
+            get { return isDefending; }
+        }
 
         // PUBLIC properties - controlled access to private fields
         public string Name
@@ -48,10 +53,35 @@ namespace CodgersCombat
             return Health > 0;
         }
 
-        // NEW METHOD - safely reduce health
         public void TakeDamage(int damage)
         {
+            // If defending, reduce damage by 50%
+            if (isDefending)
+            {
+                damage = damage / 2;
+                Console.WriteLine($"   🛡️ {Name} blocks! Damage reduced to {damage}!");
+            }
+
             Health = Health - damage;
+        }
+
+        // NEW: Defend reduces damage taken
+        public void Defend()
+        {
+            isDefending = true;
+            Console.WriteLine($"🛡️ {Name} takes a defensive stance!");
+        }
+
+        // NEW: Reset defense at start of turn
+        public void ResetDefense()
+        {
+            isDefending = false;
+        }
+
+        // NEW: Special ability - each codger type will override this
+        public virtual void UseSpecialAbility(IFighter target)
+        {
+            Console.WriteLine($"{Name} has no special ability!");
         }
 
         // CONSTRUCTOR - this runs when we create a new codger
