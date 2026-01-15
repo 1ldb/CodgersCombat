@@ -26,22 +26,27 @@ namespace CodgersCombat
                 fighter.Introduce();
             }
 
-            // Pick two random fighters
+            
+
+            // Player chooses their fighter
+            PlayerController playerController = new PlayerController();
+            IFighter plaFighter = playerController.ChooseFighter(fighters.ToArray());
+
+            // Pick a random enemy (not the same as player's choice)
             Random random = new Random();
-            int index1 = random.Next(0, fighters.Count);
-            int index2 = random.Next(0, fighters.Count);
+            IFighter enemyFighter;
 
-            while (index2 == index1)
+            do
             {
-                index2 = random.Next(0, fighters.Count);
-            }
+                int randomIndex = random.Next(0, fighters.Count);
+                enemyFighter = fighters[randomIndex];
+            } while (enemyFighter == plaFighter); // Keep picking until it's different
 
-            IFighter fighter1 = fighters[index1];
-            IFighter fighter2 = fighters[index2];
+            Console.WriteLine($"Your opponent is: {enemyFighter.Name}\n");
 
             // Create battle manager and run the battle
             BattleManager battleManager = new BattleManager();
-            battleManager.RunBattle(fighter1, fighter2);
+            battleManager.RunBattle(plaFighter, enemyFighter);
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();

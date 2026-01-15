@@ -9,6 +9,18 @@ namespace CodgersCombat
     // SINGLE RESPONSIBILITY - This class does ONE thing: manages battles
     public class BattleManager
     {
+
+        private PlayerController playerController;
+        private AIController aiController;
+
+
+        public BattleManager()
+        {
+            playerController = new PlayerController();
+            aiController = new AIController();
+        }
+
+
         // Method to run a battle between two fighters
         public void RunBattle(IFighter fighter1, IFighter fighter2)
         {
@@ -19,17 +31,40 @@ namespace CodgersCombat
             {
                 Console.WriteLine($"--- ROUND {round} ---");
 
-                // Fighter 1 attacks
-                fighter1.Attack(fighter2);
+                fighter1.ResetDefense();
+                fighter2.ResetDefense();
 
-                if (!fighter2.IsAlive())
+                CombatAction action = playerController.ChooseAction();
+
+                switch (action)
                 {
-                    Console.WriteLine($"{fighter2.Name} is knocked out!");
-                    break;
+                    case CombatAction.Attack:
+                        fighter1.Attack(fighter2);
+                        break;
+                    case CombatAction.Defend:
+                        fighter1.Defend();
+                        break;
+                    case CombatAction.SpecialAbility:
+                        fighter1.UseSpecialAbility(fighter2);
+                        break;
                 }
 
-                // Fighter 2 attacks
-                fighter2.Attack(fighter1);
+
+
+                CombatAction aiAction = aiController.ChooseAction(fighter2, fighter1);
+
+                switch (aiAction)
+                {
+                    case CombatAction.Attack:
+                        fighter2.Attack(fighter1);
+                        break;
+                    case CombatAction.Defend:
+                        fighter2.Defend();
+                        break;
+                    case CombatAction.SpecialAbility:
+                        fighter2.UseSpecialAbility(fighter1);
+                        break;
+                }
 
                 if (!fighter1.IsAlive())
                 {
